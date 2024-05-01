@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+}
+
+p {
+    font-family: roboto;
+}
+
+.post {
+    background-color: white;
+    margin-top: 200px;
+    width: 400px;
+    height: 650px;
+}
+
+.post img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 420px;
+    margin: auto;
+}
+
+.container .post .post-header {
+    display: flex;
+}
+
+.container .post .post-header div:first-child{
+    display: inline-block;
+    padding: 6px;
+    margin-top: 14px;
+    margin-left: 6px;
+    font-size: 30px;
+    width: 7%;
+}
+
+.container .post .post-header div:last-child{
+    display: inline-block;
+    margin-top: 14px;
+    margin-right: 15px;
+    font-size: 40px;
+    width: 80%;
+    text-align: right;
+}
+
+.container .post .post-header div p {
+    display: inline-block;
+    margin-top: 16px;
+    width: 10%;
+}
+
+.post-body {
+    padding: 10px;
+    margin: 0;
+}  
+
+.post-body p {
+    text-align: justify;
+    font-size: 13px;
+}  
+
+.post-body i {
+    font-size: 35px; 
+}
+
+.post-body div:nth-child(1){
+    text-align: left;
+    width: 34%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.post-body div:nth-child(2){
+    text-align: right;
+    width: 61%;
+    display: inline-block;
+}
